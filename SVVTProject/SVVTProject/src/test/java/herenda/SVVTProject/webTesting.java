@@ -159,9 +159,6 @@ class webTesting {
 		
 	} 
 	
-	//test za ostatak dijel + test zsa upozorreje ako premrsavi zelimo biti
-	//test za dodavanje podataka i prvljenje accounta
-	
 	
 	//we test the creation of the account with personal details of one of us and assert weather we agree on the terms and conditions of myfitnesspal
 	@Test
@@ -235,9 +232,6 @@ class webTesting {
 	    webDriver.findElement(By.xpath("//*[@id=\"__next\"]/section/div/main/div/form/div/div[4]/button[1]")).click();
 	    Thread.sleep(10000);
 	}
-	
-	
-	//we test if our warning message, shown when selecting a too small weight number is equal to what is expected
 	
 	
 	//we test if after selecting the sign up option from the login button we will get a message that contains MyFitnessPal
